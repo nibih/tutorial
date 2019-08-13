@@ -1,82 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>tutorial</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-</head>
-<body >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  </head>
+  <body>
+    <div id="parts">
+      <h1>Welcome to part 1</h1>
+      <p>This part is to set you up with the nescessary tools.</p>
 
-<div id="parts">
-    <h1>Welcome to part 1</h1>
-    <p>This part is to set you up with the nescessary tools.</p>
+      <h2>Git & Github</h2>
+      <p>
+        One of the most essential tools is git. here is the link provided in an
+        anchor tag: <a href="github.com">github</a>
+      </p>
+      <p>
+        Git is what we call "version control" it allows you to host your
+        projects but still keep track of what changes are made. you can even
+        make branches if you want to have different versions running. Github is
+        just a site where you can store all the data remotely.
+      </p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/SWYqp7iY_Tc"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <p>a good video about git^</p>
+      <h2>Codepen</h2>
+      <p>
+        <a href="https://codepen.io/">Codepen</a> is a good tool to view your
+        code and the output side by side in real time. it is really useful when
+        you are prototyping.
+      </p>
 
-    <h2>Git & Github</h2>
-    <p>One of the most essential tools is git.
-    here is the link provided in an anchor tag:
-    <a href="github.com">github</a></p>
-    <p>Git is what we call "version control" it allows you to host your projects but still keep track of what changes are made. you can even make branches if you want to have different versions running. Github is just a site where you can store all the data remotely.
-    </p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/SWYqp7iY_Tc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>a good video about git^</p>
-    <h2>Codepen</h2>
-    <p> <a href="https://codepen.io/">Codepen</a> is a good tool to view your code and the output side by side in real time. it is really useful when you are prototyping.</p>
+      <h2>Visual Studio Code</h2>
+      <p>
+        This is the leading "text editor" for coding right now. it is very
+        versatile as it can be used to write a lot of different programming
+        languages. it is made by microsoft and is available through their
+        <a href="https://code.visualstudio.com/">website</a>
+      </p>
+    </div>
 
-    <h2>Visual Studio Code</h2>
-    <p>This is the leading 
-        "text editor" for coding 
-        right now. it is very versatile as it can be used to 
-        write a lot of different programming languages. it is made by
-         microsoft and is available through their
-          <a href="https://code.visualstudio.com/">website</a></p>
-</div>
-
-<div id="parts">
-    <h1>Welcome to part 2</h1>
-    <h2>Elements of a website</h2>
-    <p>a website has 3 distict parts to it.</p>
-    <ul>
+    <div id="parts">
+      <h1>Welcome to part 2</h1>
+      <h2>Elements of a website</h2>
+      <p>a website has 3 distict parts to it.</p>
+      <ul>
         <li>
-            <h3>HTML</h3>
-            <p>HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages you visit.</p>
-            <p><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started">here's</a> an introduction by mozilla</p>
+          <h3>HTML</h3>
+          <p>
+            HTML (Hypertext Markup Language) is not a programming language; it
+            is a markup language used to tell your browser how to structure the
+            web pages you visit.
+          </p>
+          <p>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
+              >here's</a
+            >
+            an introduction by mozilla
+          </p>
         </li>
-        <li >
-            <h3>CSS</h3>
-            <style>
+        <li>
+          <h3>CSS</h3>
+          <style>
             .rainbow-text {
-                font-size: 15pt;
-                background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-              }
-              
-              
-              </style>
-            <p class="rainbow-text">CSS can make your HTML pretty. in this example i used a rainbow gradient. basically, CSS determines how something looks.</p>
-            <a href="
-            https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">Mozilla Tutorial</a>
+              font-size: 15pt;
+              background-image: linear-gradient(
+                to left,
+                violet,
+                indigo,
+                blue,
+                green,
+                yellow,
+                orange,
+                red
+              );
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          </style>
+          <p class="rainbow-text">
+            CSS can make your HTML pretty. in this example i used a rainbow
+            gradient. basically, CSS determines how something looks.
+          </p>
+          <a
+            href="
+            https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"
+            >Mozilla Tutorial</a
+          >
         </li>
         <li>
-            <h3>JavaScript</h3>
-            <p>JavaScript is the logic part of the site. this is where the algorithms come in.</p>
-            
-<p id="demo">A Paragraph.</p>
+          <h3>JavaScript</h3>
+          <p>
+            JavaScript is the logic part of the site. this is where the
+            algorithms come in.
+          </p>
 
-<button type="button" onclick="myFunction()">Try it</button>
+          <p id="demo">A Paragraph.</p>
 
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-</script>
-    
+          <button type="button" onclick="myFunction()">Try it</button>
+
+          <script>
+            function myFunction() {
+              document.getElementById("demo").innerHTML = "Paragraph changed.";
+            }
+          </script>
         </li>
-    </ul>
-
-</div>
-    
-
-</body>
+      </ul>
+    </div>
+  </body>
 </html>
