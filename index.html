@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
-<link rel="stylesheet" href="style.css">
-<body>
+<body >
 
 <div id="parts">
     <h1>Welcome to part 1</h1>
@@ -43,12 +42,37 @@
             <p>HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages you visit.</p>
             <p><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started">here's</a> an introduction by mozilla</p>
         </li>
-        <li>
+        <li >
             <h3>CSS</h3>
+            <style>
+            .rainbow-text {
+                font-size: 15pt;
+                background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              
+              
+              </style>
+            <p class="rainbow-text">CSS can make your HTML pretty. in this example i used a rainbow gradient. basically, CSS determines how something looks.</p>
+            <a href="
+            https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">Mozilla Tutorial</a>
         </li>
         <li>
             <h3>JavaScript</h3>
-    </li>
+            <p>JavaScript is the logic part of the site. this is where the algorithms come in</p>
+            
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+    
+        </li>
     </ul>
 
 </div>
